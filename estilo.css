@@ -1,0 +1,91 @@
+#home{
+    background-image: url(./img/street.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#atelier{
+    background-image:url(./img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: chocolate;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.atelier{
+    padding: 100px;
+    text-align: center;
+}
+#quadro1{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./img/border.png) 20 round;
+}
+
+#quadro2{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./img/border.png) 30 round;
+}
+
+#quadro3{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./img/border.png)10 round;
+}
+
+#quadro4{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./img/border.png) 20 stretch;
+}
+
+#quadro5{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./img/border.png) 30 stretch;
+}
+
+#quadro6{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./img/border.png) 10 stretch;
+}
+
+.atelier img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.quadrado{
+    color: red;
+    background-color:black;
+    width: 400px;
+    height: 50px;
+    border-bottom: solid 30px orange;
+    text-align: center;
+}
+
+
+
+#home img {
+    width: 400px;
+    height: 550px;
+}
+button{
+    background-color: crimson;
+    padding: 20px 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: 10px 10px 20px rgb(192, 127, 7);
+    text-align: center;
+}
+
+.info{
+    padding: 5% 0% 0% 40%;
+    align-content: flex-start;
+}
+
